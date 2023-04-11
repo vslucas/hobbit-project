@@ -13,7 +13,7 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to right, green, orange);
+    background-image: linear-gradient(to right, #84F000, #FAF900,#F5990C);
     text-align: center;
     padding: 15px;
 }
@@ -66,13 +66,13 @@ section pre {
 }
 
 .fundo {
-    display: flex;
-    justify-content: right;
+    display: table;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 2px 2px 2px black;
     text-align: right;
     color: white;
     padding: 10px;
+    margin-left: auto
 }
 
 footer {
